@@ -8,7 +8,7 @@ This project is built with **Vue 3** and **Vite**, providing a fast and modern d
   - Line chart visualization for better trend analysis over time.  
 - **Data Filtering**:  
   - A date range picker allows users to filter the table and chart data based on a selected start and end date.  
-  - Filtering can be applied via a manual button
+  - Filtering can be applied via a manual button.
 - **Interactive Data Control**:  
   - Editable table: Users can update timeseries values, which automatically update the chart.    
   - Checkboxes for each timeseries to toggle visibility in the table and chart.
