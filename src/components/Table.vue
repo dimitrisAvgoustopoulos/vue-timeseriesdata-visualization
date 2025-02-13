@@ -34,15 +34,15 @@ const checked = ref();
               contenteditable="true" @input="(event) => { handleUpdate(index,'DateTime',event )}" >
               {{ dateFormatter(data.DateTime) }}
           </td>
-          <td v-if="data.DateTime" 
+          <td v-if="data.ENTSOE_DE_DAM_Price" 
               contenteditable="true" @input="(event) => { handleUpdate(index,'ENTSOE_DE_DAM_Price',event )}" >
               {{data.ENTSOE_DE_DAM_Price}}
           </td>
-          <td v-if="data.DateTime" 
+          <td v-if="data.ENTSOE_GR_DAM_Price" 
               contenteditable="true" @input="(event) => { handleUpdate(index,'ENTSOE_GR_DAM_Price',event )}" >
               {{data.ENTSOE_GR_DAM_Price}}
           </td>
-          <td v-if="data.DateTime" 
+          <td v-if="data.ENTSOE_FR_DAM_Price" 
               contenteditable="true" @input="(event) => { handleUpdate(index,'ENTSOE_FR_DAM_Price',event )}" >
               {{data.ENTSOE_FR_DAM_Price}}
           </td>
