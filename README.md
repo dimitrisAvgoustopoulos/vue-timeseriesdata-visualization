@@ -1,4 +1,4 @@
-# Vue 3 + Vite - Timeseries Data Visualization  
+# Vue 3 + Vite Timeseries Data Visualization  
 
 This project is built with **Vue 3** and **Vite**, providing a fast and modern development environment. It focuses on **visualizing timeseries data** efficiently with an intuitive user interface.  
 
