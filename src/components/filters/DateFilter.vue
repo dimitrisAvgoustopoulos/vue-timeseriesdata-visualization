@@ -36,7 +36,7 @@ function getDateRange(){
 </script>
 
 <template>
-    <div class="dateFilter flex flex-wrap justify-end"> 
+    <div class="dateFilter flex flex-wrap justify-center xl:justify-end"> 
         <div class="flex gap-4 border-b-4 border-blueStellar w-fit text-xs p-2 mb-5 lg:text-base lg:mx-10 lg:mb-10 lg:gap-2 lg:m-5">
             <DateInput v-model="startDate" labelName="Start Date:"/>
             <DateInput v-model="endDate" labelName="End Date:"/>
