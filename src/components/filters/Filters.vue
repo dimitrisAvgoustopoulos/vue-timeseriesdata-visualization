@@ -18,8 +18,8 @@ provide('onHandleCheck', props.onHandleCheck);
 </script>
 
 <template>
-    <div class="flex flex-col lg:flex-row md:justify-end">
-        <ToggleTimeseries class="order-2 lg:order-1"/>
-        <DateFilter class="order-1 lg:order-2"/>
+    <div class="flex flex-col 2xl:flex-row 2xl:justify-end">
+        <ToggleTimeseries class="order-2 2xl:order-1"/>
+        <DateFilter class="order-1 2xl:order-2"/>
     </div>
 </template>
