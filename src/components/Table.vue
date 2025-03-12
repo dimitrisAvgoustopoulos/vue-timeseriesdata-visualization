@@ -30,8 +30,7 @@ const checked = ref();
       <tbody>
         <!-- loop through the array data-->
         <tr v-for="(data, index) in passedData" ><!-- dynamic render each value from the data in a row <tr/> -->
-          <td v-if="data.DateTime" 
-              contenteditable="true" @input="(event) => { handleUpdate(index,'DateTime',event )}" >
+          <td v-if="data.DateTime" >
               {{ dateFormatter(data.DateTime) }}
           </td>
           <td v-if="data.ENTSOE_DE_DAM_Price" 
