@@ -14,7 +14,7 @@ This project is built with **Vue 3** and **Vite**, providing a fast and modern d
   - Checkboxes for each timeseries to toggle visibility in the table and chart.
 - **Responsive Design**: Ensures accessibility and usability across different devices.   
 
-## Getting Started  
+## 📍Getting Started  
 
 ### Run Locally  
 
@@ -42,7 +42,11 @@ Start the server
   npm run dev
 ```
 
-
-## Enjoy Online
+## 🌍Enjoy Online
 
 Check it out and give it a try: [Vue Timeseries Data Visualization](https://vue-timeseriesdata-visualization-cobm.vercel.app/)
+
+## Screenshots
+![Project Screenshot1](screenshot.png)
+
+
