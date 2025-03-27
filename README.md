@@ -9,6 +9,7 @@ This project is built with **Vue 3** and **Vite**, providing a fast and modern d
 - **Data Filtering**:  
   - A date range picker allows users to filter the table and chart data based on a selected start and end date.  
   - Filtering can be applied via a manual button.
+  - Dates from 1/02/2024 to 12/02/2024
 - **Interactive Data Control**:  
   - Editable table: Users can update timeseries values, which automatically update the chart.    
   - Checkboxes for each timeseries to toggle visibility in the table and chart.
